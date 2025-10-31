@@ -1,3 +1,11 @@
+import Hello from "./components/Hello";
+
 export default function Home() {
-  return <div>NextJS 16</div>;
+  console.log("nextjs 16");
+  return (
+    <main>
+      <h1>NextJS 16</h1>
+      <Hello />
+    </main>
+  );
 }
